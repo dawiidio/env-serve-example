@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  client_a:
+    build:
+      context: ./
+    environment:
+      PRIMARY_COLOR: green
+      CLIENT_NAME: "Client A"
+    ports:
+    - "3001:3000"
+  client_b:
+    build:
+      context: ./
+    environment:
+      PRIMARY_COLOR: red
+      CLIENT_NAME: "Client B"
+    ports:
+    - "3002:3000"

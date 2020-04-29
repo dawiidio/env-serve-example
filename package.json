@@ -1,0 +1,12 @@
+{
+  "name": "env-serve-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo Some build script..."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
